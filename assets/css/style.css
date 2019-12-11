@@ -1,0 +1,180 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+/* header */
+body {
+	margin: 0;
+}
+.header_main {
+	position: flex;
+	
+	color: #fff;
+	width: 100%;
+	height: 90px;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.img_logo {
+	display: flex;
+	margin-left: 20px;
+	padding: 0;
+	border: 0;
+}
+
+.header_search_div{
+	
+	display: flex;
+	width: 250px;
+    height: 50px;
+    background: #fff;
+    
+
+
+ 
+}
+
+.header_search{
+	display: flex;
+	width: 100%;
+	height: 50px;
+	padding-left: 15px;
+	padding-right: 10px;
+	color: #8d949c;
+	border-radius: 5px;
+	outline: none;
+	border-color: #eaf0f7;
+    opacity: 1;
+    border-width: thin; 
+	overflow: hidden;
+	font-size: 20px;
+	box-shadow: rgba(118, 121, 135, 0.25) 0 5px;/* Параметры тени 
+	/* placeholder: "Поиск..."; */
+	
+}
+ 
+ 
+.header_search_submit {
+	/* display: flex;  <i class="fa fa-search" aria-hidden="true"></i>*/
+	display: flex;
+    border: 0;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    color: #0a0a0a;
+    width: 50px;
+    height: 50px;
+    /* position: absolute;
+	right: 0; */
+    cursor: pointer;
+	
+    margin-left: -45px; 
+    opacity: 0.9;
+	outline: none;
+	 
+}
+ 
+
+.header_search_submit:before {
+  content: "\f002";
+  font-family: FontAwesome;
+  font-size: 25px;
+  color: #0a0a0a;
+
+}
+
+.header_search_div{
+	content: "";
+}
+
+
+.header_nav {
+	
+	
+}
+
+.header_nav_ul{
+	
+	
+}
+
+.header_nav_li{
+	
+	 
+	 
+}
+
+.header_form {
+	
+}
+
+.header_form_btn {
+	
+	
+}
+/* main */
+
+.main{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+	height: 80vh;
+	margin-right-side: 5%;
+	margin-left-side: 5%;
+	border: 0;
+	background:
+	url("../img/Main_bg.svg") center;
+	/* no-repeat; */
+	background-size: cover;
+	
+}
+.main_h1{
+	
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	line-height: 50px;
+	/* or 125% */
+	margin-top: 0;
+	text-align: center;
+}
+/*
+.main_h2{
+	text-size: 10;
+	text-align: center;
+	color: #444C56;
+	
+}
+*/
+
+.main_h2{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 24px;
+/* identical to box height, or 133% */
+
+	text-align: center;
+
+	color: #444C56;
+
+	mix-blend-mode: normal;
+	opacity: 0.7;
+}
+
+.main_search {
+	 
+}
+
+.main_submit {
+	 
+}
